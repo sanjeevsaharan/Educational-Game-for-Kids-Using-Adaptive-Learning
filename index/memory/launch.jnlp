@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>memory_game</title>
+        <vendor>MANGALDEEP</vendor>
+        <homepage href=""/>
+        <description>memory_game</description>
+        <description kind="short">memory_game</description>
+        
+        
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.6+"/>
+        <jar href="memory_game.jar" main="true"/>
+        
+        
+    </resources>
+    <applet-desc height="600" main-class="memory_game.Memory_game" name="memory_game" width="900">
+        
+    </applet-desc>
+</jnlp>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>EngGame</title>
+        <vendor>MANGALDEEP</vendor>
+        <homepage href=""/>
+        <description>EngGame</description>
+        <description kind="short">EngGame</description>
+        
+        
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.6+"/>
+        <jar href="EngGame.jar" main="true"/>
+        
+        
+    </resources>
+    <applet-desc height="600" main-class="enggame.EngGame" name="EngGame" width="900">
+        
+    </applet-desc>
+</jnlp>
